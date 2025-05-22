@@ -14,7 +14,7 @@ To write a program to prepare EMI calculator using function without return type 
 6.	Stop the program.
 
 ## PROGRAM
-
+```
 #include <stdio.h>
 #include <math.h>
 void calculateEMI(float principal, float rate, int months) {
@@ -35,7 +35,7 @@ scanf("%d", &months);
 calculateEMI(principal, rate, months);
 return 0;
 }
-
+```
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/2b50117d-efb1-4c7f-b70d-d7a517c38a9d)
@@ -64,7 +64,7 @@ To write a C program to generate the Fibonacci series for the value 6.
 7.	Stop the program.
 
 ## PROGRAM
-
+```
 #include <stdio.h>
 int main() {
 int n = 6, first = 0, second = 1, next;
@@ -79,7 +79,7 @@ second = next;
 printf("\n");
 return 0;
 }
-
+```
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/7d980a83-28db-405e-9563-7a0c99bb5934)
@@ -108,7 +108,7 @@ To write a C program to read n elements as input and print the last element of t
 5.	Stop the program.
 
 ## PROGRAM
-
+```
 #include <stdio.h>
 int main() {
 int n;
@@ -122,7 +122,7 @@ scanf("%d", &arr[i]);
 printf("The last element of the array is: %d\n", arr[n - 1]);
 return 0;
 }
-
+```
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/442db6d3-e291-4cdb-be66-8576cb2e79f4)
@@ -153,7 +153,7 @@ To write a C Program to count total number of positive elements in an array.
 6.	Stop the program.
 
 ## PROGRAM
-
+```
 #include <stdio.h>
 int main() {
 int n, count = 0;
@@ -170,7 +170,7 @@ count++;
 printf("Total number of positive elements: %d\n", count);
 return 0;
 }
-
+```
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/1f582ded-b659-445a-b928-fbd3d3ddfdf2)
@@ -206,7 +206,7 @@ To write a C program to replace all even elements with 'E' in one dimensional ar
  Print the updated array after replacements.
 
 ## Program:
-
+```
 int main() {
 int n;
 printf("Enter the number of elements: ");
@@ -227,7 +227,7 @@ printf("%d ", arr[i]);
 printf("\n");
 return 0;
 }
-
+```
 ## Output:
  
 ![image](https://github.com/user-attachments/assets/065ddeeb-8651-4912-8662-be2cddbfd70b)
